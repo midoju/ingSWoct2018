@@ -1,0 +1,15 @@
+Fecha Actual: 2018/12/21
+Ingrese su año de nacimiento: 1992
+Ingrese su mes de nacimiento: 8
+Ingrese su dia de nacimiento: 8
+Su edad exacta es: 26 años 4 meses con 13 dias
+Fecha Actual: 2018/12/21
+Ingrese su año de nacimiento: 1995
+Ingrese su mes de nacimiento: 3
+Ingrese su dia de nacimiento: 3
+Su edad exacta es: 23 años 9 meses con 11 dias
+Fecha Actual: 2018/12/21
+Ingrese su año de nacimiento: 1990
+Ingrese su mes de nacimiento: 11
+Ingrese su dia de nacimiento: 11
+Su edad exacta es: 28 años 1 meses con 13 dias

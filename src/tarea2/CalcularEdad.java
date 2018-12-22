@@ -37,6 +37,7 @@ public class CalcularEdad {
      
     
 try{
+    System.out.println("Ahora haremos un cambios en la rama");
     System.out.println("Bienvenido vamos a calcular su edad");
     System.out.println("Fecha Actual: "+añoAc+"/"+mesAc+"/"+diaAc);
     /*Creaccion del archivo para guardar los resultados*/
@@ -45,25 +46,28 @@ try{
    
    /*Preguntas para solicitar la edad y recolectar la informacion ingresada 
       por el usuario desde el teclado*/
-   System.out.print("Ingrese el año de nacimiento: ");
+   System.out.print("Usuario ingrese el año de nacimiento: ");
    añoNa = lector.nextInt();
          
-   System.out.print("Ingrese el mes de nacimiento: ");
+   System.out.print("Ahora ingrese el mes de nacimiento: ");
    mesNa = lector.nextInt();
       
-   System.out.print("Ingrese el dia de nacimiento: ");
+   System.out.print("Casi terminamos ingrese el dia de nacimiento: ");
    diaNa = lector.nextInt();
    /*Escribimos los datos en el documento*/
+   escribir.write("Ahora haremos un cambios en la rama");
+   escribir.append('\n');
    escribir.write("Bienvenido vamos a calcular su edad");
+   escribir.append('\n');
    escribir.write("Fecha Actual: "+añoAc+"/"+mesAc+"/"+diaAc);
    escribir.append('\n');
-   escribir.write("Ingrese el año de nacimiento: ");
+   escribir.write("Usuario ingrese el año de nacimiento: ");
    escribir.write(String.valueOf(añoNa));
    escribir.append('\n');
-   escribir.write("Ingrese el mes de nacimiento: ");
+   escribir.write("Ahora ingrese el mes de nacimiento: ");
    escribir.write(String.valueOf(mesNa));
    escribir.append('\n');
-   escribir.write("Ingrese el dia de nacimiento: ");
+   escribir.write("Casi terminamos ingrese el dia de nacimiento: ");
    escribir.write(String.valueOf(mesNa));
    escribir.append('\n');
       
@@ -82,9 +86,8 @@ try{
        diaE = diaAc - diaNa;
        
        /*obtenemos el resultado del calculo*/
-       String resultado = "Su edad exacta luego de nuestro calculo es: "+añoE + 
-               " años "+ mesE +
-               " meses con " + diaE +" dias";
+       String resultado = "Luego de realizado calculo interno determinamos que "
+               + "su edad es: \n"+añoE + " años "+ mesE +" meses con " + diaE +" dias";
        System.out.println(resultado);
        
        /*Escribimos el resultado el resultado del calculo y cerramos el 

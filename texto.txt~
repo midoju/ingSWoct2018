@@ -19,6 +19,7 @@ Ingrese el año de nacimiento: 1992
 Ingrese el mes de nacimiento: 8
 Ingrese el dia de nacimiento: 8
 Su edad exacta luego de nuestro calculo es: 26 años 4 meses con 14 dias
+
 Ahora haremos un cambios en la rama
 Bienvenido vamos a calcular su edad
 Fecha Actual: 2018/12/22
@@ -26,11 +27,3 @@ Usuario ingrese el año de nacimiento: 1959
 Ahora ingrese el mes de nacimiento: 1
 Casi terminamos ingrese el dia de nacimiento: 1
 Luego de realizado calculo interno determinamos que su edad es: 59 años 11 meses con 5 dias
-Ahora haremos un cambios en la rama
-Bienvenido vamos a calcular su edad
-Fecha Actual: 2018/12/22
-Usuario ingrese el año de nacimiento: 1959
-Ahora ingrese el mes de nacimiento: 1
-Casi terminamos ingrese el dia de nacimiento: 1
-Luego de realizado calculo interno determinamos que su edad es: 
-59 años 11 meses con 5 dias

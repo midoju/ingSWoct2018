@@ -37,6 +37,7 @@ public class CalcularEdad {
      
     
 try{
+    System.out.println("Bienvenido vamos a calcular su edad");
     System.out.println("Fecha Actual: "+añoAc+"/"+mesAc+"/"+diaAc);
     /*Creaccion del archivo para guardar los resultados*/
     File archivo =new File("texto.txt");
@@ -44,24 +45,25 @@ try{
    
    /*Preguntas para solicitar la edad y recolectar la informacion ingresada 
       por el usuario desde el teclado*/
-   System.out.print("Ingrese su año de nacimiento: ");
+   System.out.print("Ingrese el año de nacimiento: ");
    añoNa = lector.nextInt();
          
-   System.out.print("Ingrese su mes de nacimiento: ");
+   System.out.print("Ingrese el mes de nacimiento: ");
    mesNa = lector.nextInt();
       
-   System.out.print("Ingrese su dia de nacimiento: ");
+   System.out.print("Ingrese el dia de nacimiento: ");
    diaNa = lector.nextInt();
    /*Escribimos los datos en el documento*/
+   escribir.write("Bienvenido vamos a calcular su edad");
    escribir.write("Fecha Actual: "+añoAc+"/"+mesAc+"/"+diaAc);
    escribir.append('\n');
-   escribir.write("Ingrese su año de nacimiento: ");
+   escribir.write("Ingrese el año de nacimiento: ");
    escribir.write(String.valueOf(añoNa));
    escribir.append('\n');
-   escribir.write("Ingrese su mes de nacimiento: ");
+   escribir.write("Ingrese el mes de nacimiento: ");
    escribir.write(String.valueOf(mesNa));
    escribir.append('\n');
-   escribir.write("Ingrese su dia de nacimiento: ");
+   escribir.write("Ingrese el dia de nacimiento: ");
    escribir.write(String.valueOf(mesNa));
    escribir.append('\n');
       
@@ -80,7 +82,8 @@ try{
        diaE = diaAc - diaNa;
        
        /*obtenemos el resultado del calculo*/
-       String resultado = "Su edad exacta es: "+añoE + " años "+ mesE +
+       String resultado = "Su edad exacta luego de nuestro calculo es: "+añoE + 
+               " años "+ mesE +
                " meses con " + diaE +" dias";
        System.out.println(resultado);
        

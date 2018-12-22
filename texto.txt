@@ -13,3 +13,8 @@ Ingrese su año de nacimiento: 1990
 Ingrese su mes de nacimiento: 11
 Ingrese su dia de nacimiento: 11
 Su edad exacta es: 28 años 1 meses con 13 dias
+Bienvenido vamos a calcular su edadFecha Actual: 2018/12/22
+Ingrese el año de nacimiento: 1992
+Ingrese el mes de nacimiento: 8
+Ingrese el dia de nacimiento: 8
+Su edad exacta luego de nuestro calculo es: 26 años 4 meses con 14 dias
